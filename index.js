@@ -53,5 +53,5 @@ console.log(circle);
  if('radius' in circle1)console.log('yes');
 
 
-console.log('Test');
+//console.log('Test');
 //
