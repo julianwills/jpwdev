@@ -1,0 +1,14 @@
+
+
+nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    
+}
+
+a:visited{
+    color: violet;
+}

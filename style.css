@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    }
+
+    a:visited{
+        color: whitesmoke;
+    }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #948d8d;
+}
+
+nav {
+    max-width: 1200px; ;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 150px;
+    min-width: 100px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+
+.link a {
+    color: white;
+    padding-bottom: 0.75rem;
+    position: relative;
+   
+}  
+
+.link a:visited {
+    color: violet;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(12, 12, 63);
+    transition: all 0.3s ease;
+    
+}   
+
+.link a:hover::after {
+    width: 70%;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(18, 18, 223);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(9, 9, 149);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.blur {
+    position:absolute;
+    box-shadow: 0 0 1000px 120px rgba(75, 75, 226, 0.5);
+    z-index: -100;
+}
+
+header {
+    position: relative;
+    padding-top: 2rem;
+   /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    gap: 2rem;
+}   
+
+header .content h4 {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+header .content h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 4 rem;
+}
