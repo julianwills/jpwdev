@@ -100,11 +100,23 @@ nav {
     padding: 5rem 2rem;
 }
 
+.cont {
+    color: white;
+    
+}
+
 .blur {
     position:absolute;
     box-shadow: 0 0 1000px 120px rgba(75, 75, 226, 0.5);
     z-index: -100;
 }
+
+.blur-lower {
+    position:bottom;
+    box-shadow: 0 0 1000px 120px rgba(75, 75, 226, 0.5);
+    z-index: -100;
+}
+
 
 header {
     position: relative;
@@ -138,12 +150,16 @@ header .content h1 {
     padding: 2rem 2rem;
     display: grid;
     grid-template-columns: auto auto auto;  
-    
-    align-items: center;
+    align-content:stretch;
+        
     gap: 2rem;
 }
 
 .section {
    
     width: 100%;
+    border: #6f5de1 1px solid;
+    border-radius: 20px;
+    padding: 4rem 2rem;
+    
 }
