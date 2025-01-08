@@ -88,31 +88,34 @@ nav {
     color: rgb(73, 151, 224);
 }
 
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 1rem;
-        width: 100%;
-    }
+.link a {
+    color: white;
+    padding-bottom: 0.75rem;
+    position: relative;
+}  
 
-    .nav-links li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .link a {
-        display: block;
-        width: 100%;
-        padding: 0.5rem 0;
-    }
+.link a:visited {
+    color: violet;
 }
 
+/* Add styles for the button */
+.nav-button {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4971e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Add hover effect for the button */
+.nav-button:hover {
+    background-color: #365bb5;
+}
 .link a {
     color: white;
     padding-bottom: 0.75rem;
